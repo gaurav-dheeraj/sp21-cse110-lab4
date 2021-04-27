@@ -23,11 +23,11 @@
 9. This gives a error (ReferenceError: i is not defined) because i is declared using let and is hence confined to the for construct. i cannot be accessed at line 11.
 10. Prints 3 becuase there is no reassignment or redeclaration of length after being declared as a const and is declared in the same function outside the for loop as line 12. It holds the value 3 as it is the length of the prices array.
 11. Returns the array of the final prices [ 50, 100, 150 ] and discounted is declared in the same function outside the for loop as line 14. It allows us to push values to a const array as we are not reassigning or redeclaring discounted and hence we're able to get the respective discounted values for the elements in prices in the discounted array even though it is declared as a const.
-12. A. student.name
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student["Favorite Teacher"].name
-    E. student.courseLoad[1]
+12. A. student.name  
+    B. student['Grad Year']  
+    C. student.greeting()  
+    D. student["Favorite Teacher"].name  
+    E. student.courseLoad[1]  
 13. A. '32' - since integers map to their exact string representation and string concatenation is done when the + sign is used with a string and integer.    
     B. 1 - returns a number type since '-' represents an arithmetic subtraction and the string is converted to its exact integer representation.  
     C. 3 - returns a number type as '+' used with a number and null represents an arithmetic addition and null is converted to the integer representation of 0.  
