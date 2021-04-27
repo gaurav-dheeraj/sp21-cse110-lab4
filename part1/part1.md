@@ -28,26 +28,26 @@
     C. student.greeting()
     D. student["Favorite Teacher"].name
     E. student.courseLoad[1]
-13. A. '32' - since integers map to their exact string representation and concatenation is done when the + sign is used with a string and integer
-    B. 1 - returns a number type since '-' represents an arithmetic subtraction and the string is converted to its exact integer representation.
-    C. 3 - returns a number type as '+' used with a number and null represents an arithmetic addition and null is converted to the integer representation of 0.
-    D. '3null' - here, the '+' represents a concatenation and null is converted to "null".
-    E. 4 - returns a number type as '+' used with a number and boolean represents an arithmetic addition and true is converted to the integer representation of 1.
-    F. 0 - returns a number type as '+' represents an arithmetic addition and both false and null are converted to the integer representation of 0.
-    G. '3undefined' - here, the '+' represents a concatenation and undefined is converted to 'undefined'.
-    H. NaN - because '-' represents an arithmetic subtraction and undefined is converted to NaN and any operation on NaN returns an NaN.
+13. A. '32' - since integers map to their exact string representation and string concatenation is done when the + sign is used with a string and integer.    
+    B. 1 - returns a number type since '-' represents an arithmetic subtraction and the string is converted to its exact integer representation.  
+    C. 3 - returns a number type as '+' used with a number and null represents an arithmetic addition and null is converted to the integer representation of 0.  
+    D. '3null' - here, the '+' represents a concatenation and null is converted to "null".  
+    E. 4 - returns a number type as '+' used with a number and boolean represents an arithmetic addition and true is converted to the integer representation of 1.  
+    F. 0 - returns a number type as '+' represents an arithmetic addition and both false and null are converted to the number representation of 0.  
+    G. '3undefined' - here, the '+' represents a concatenation and undefined is converted to 'undefined'.  
+    H. NaN - because '-' represents an arithmetic subtraction and undefined is converted to NaN and any operation on NaN returns an NaN.  
 
-14. A. true - since '2' is converted to its exact integer representation and it is indeed greater than 1.
-    B. false - the ASCII values of the first characters in both strings are compared and the ASCII value of 2 is not lower than 1.
-    C. true - The regular equality check is done. '2' is converted to 2 and is indeed equal to 2.
-    D. false - The strict equality check is done. Since '2' is a string and 2 is a number, the data types differ and the strict equality returns false.
-    E. false - When comparing values of different types, JavaScript converts the values to numbers. true is converted and is not equal to 2.
-    F. true - Strict equality check is done. Boolean(2) is converted to true and is of the same type and value as true.
+14. A. true - since '2' is converted to its exact integer representation and it is indeed greater than 1.  
+    B. false - the ASCII values of the first characters in both strings are compared and the ASCII value of 2 is not lower than 1.  
+    C. true - The regular equality check is done. '2' is converted to 2 and is indeed equal to 2.  
+    D. false - The strict equality check is done. Since '2' is a string and 2 is a number, the data types differ and the strict equality returns false.  
+    E. false - When comparing values of different types, JavaScript converts the values to numbers. true is converted to 1 and is hence not equal to 2.  
+    F. true - Strict equality check is done. Boolean(2) is converted to true and is of the same type (boolean) and value as true.  
 
-15. == is a regular equality check where if different data types are compared, they are first converted to numbers and then compared. So, even if they are different data types, as long as they map to the same number representation, == returns true.
+15. == is a regular equality check where if different data types are compared, they are first converted to numbers and then compared. So, even if they are different data types, as long as they map to the same number representation, == returns true.  
     === is a strict equality check where no data type conversion is done. Both operands must be of the same data type and must have the same value for it to return true.
 16. Present in the file part1b-question16.js
-17. [ 2, 4, 6 ] will be returned by modifyArray([1,2,3], doSomething). This is because doSomething is used as a callback which is called whenever the loop is iterated. The array [1, 2, 3] is traversed through by the loop and doSomething is called for each element in this array. The respective number is doubled and this value is pushed to the array that is returned after the loop is terminated.
+17. [ 2, 4, 6 ] will be returned by modifyArray([1,2,3], doSomething). This is because doSomething is used as a callback which is called whenever the loop is iterated. The array [1, 2, 3] is traversed through by the loop and doSomething() is called for each element in this array. The respective number is doubled in doSomething() and this value is pushed to the array that is returned after the loop is terminated.
 18. Present in the file part1b-question18.js
 19. 1  
     4  
